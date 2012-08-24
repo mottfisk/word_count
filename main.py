@@ -3,7 +3,9 @@
 # Author:  Mott Fisk
 
 def count_words(text):
-    return 1
-
+    return len(text.split())
+        
+    
 if __name__ == '__main__':
     print count_words('i went to the store')
+
